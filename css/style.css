@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+[class*="col-"] {
+  background-color: #FEC0CB;
+  border: 1px solid black;
+  height: 200px;
+  line-height: 200px;
+}
+
+[class*="col-"] .container {
+  margin: 10px;
+}
+
+[class*="col-"] .container  [class*="col-"] {
+  background-color: #F08080;
+  border: 1px solid white;
+  height: 180px;
+  line-height: 180px;
+}
